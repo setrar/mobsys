@@ -1,6 +1,6 @@
 # MobSys
 
-**Mobile communication systems**
+**Mobile Communication Systems**
 
 - [KNOPP Raymond](https://www.eurecom.fr/en/people/knopp-raymond)
 - [NIKAEIN Navid](https://www.eurecom.fr/en/people/nikaein-navid)
