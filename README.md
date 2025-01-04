@@ -2,9 +2,9 @@
 
 **Mobile communication systems**
 
-[KNOPP Raymond](https://www.eurecom.fr/en/people/knopp-raymond)
-[NIKAEIN Navid](https://www.eurecom.fr/en/people/nikaein-navid)
-[KSENTINI Adlen](https://www.eurecom.fr/en/people/ksentini-adlen)
+- [KNOPP Raymond](https://www.eurecom.fr/en/people/knopp-raymond)
+- [NIKAEIN Navid](https://www.eurecom.fr/en/people/nikaein-navid)
+- [KSENTINI Adlen](https://www.eurecom.fr/en/people/ksentini-adlen)
 
 ## Abstract
 
