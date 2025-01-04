@@ -1,0 +1,15 @@
+PING 12.1.1.1 (12.1.1.1) from 12.1.1.4 oaitun_ue0: 768(796) bytes of data.
+776 bytes from 12.1.1.1: icmp_seq=1 ttl=64 time=36.5 ms
+776 bytes from 12.1.1.1: icmp_seq=2 ttl=64 time=23.8 ms
+776 bytes from 12.1.1.1: icmp_seq=3 ttl=64 time=32.6 ms
+776 bytes from 12.1.1.1: icmp_seq=4 ttl=64 time=21.5 ms
+776 bytes from 12.1.1.1: icmp_seq=5 ttl=64 time=22.9 ms
+776 bytes from 12.1.1.1: icmp_seq=6 ttl=64 time=32.4 ms
+776 bytes from 12.1.1.1: icmp_seq=7 ttl=64 time=25.4 ms
+776 bytes from 12.1.1.1: icmp_seq=8 ttl=64 time=26.0 ms
+776 bytes from 12.1.1.1: icmp_seq=9 ttl=64 time=22.1 ms
+776 bytes from 12.1.1.1: icmp_seq=10 ttl=64 time=27.1 ms
+
+--- 12.1.1.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 21.507/27.030/36.500/4.850 ms

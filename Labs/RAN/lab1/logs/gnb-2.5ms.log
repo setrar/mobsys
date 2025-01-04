@@ -1,0 +1,1321 @@
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/toolbox] Running Iperf Server as a daemon
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/toolbox] Running Iperf Server as a daemon
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/toolbox] -----------------------------------------------------------
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/toolbox] Server listening on 5201 (test #1)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:22] [INF] Initializing as the install, fixing the configuration, without replacement.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:67] [INF] Skipping coping the configuration in docker environment.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:72] [WAR] Reverting the configuration files to default addresses.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/conf:93] [WAR] The configuration file /etc/t9s/athena/wmi/enb.conf is neither found or resolved. Please check the address.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:46:37Z" level=error msg="Error opening interfaces file" error="open : no such file or directory" logger=manager.MCI
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:46:37Z" level=info msg="Running MCI server" address=0.0.0.0 logger=manager port=60001
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:82] [WAR] Reverting the configuration files to default addresses.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:46:37Z" level=error msg="Error opening conditions file" error="open : no such file or directory" logger=manager.CPI
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:46:37Z" level=info msg="Running CPI server" address=0.0.0.0 logger=manager port=60003
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/conf:93] [WAR] The configuration file /etc/t9s/athena/wmi/gnb-cu.conf is neither found or resolved. Please check the address.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:87] [WAR] Reverting the configuration files to default addresses.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/conf:93] [WAR] The configuration file /etc/t9s/athena/wmi/gnb-du.conf is neither found or resolved. Please check the address.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:98] [WAR] Reverting numa policy to disable.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:104] [WAR] Reverting the cpu list to empty list.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:42] [INF] Initializing the Application Programming Interface (API).
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:228] [INF] WMI-API protocol:            http
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:229] [INF] WMI-API IP address:          127.0.0.1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:230] [INF] WMI-API port number:         60002
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:231] [INF] WMI-API full address:        http://127.0.0.1:60002
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:232] [INF] WMI-API type:                bosun
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 503 |      46.368µs |      10.2.130.1 | GET      "/api/v1/cpi/readiness/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 503 |      41.158µs |      10.2.130.1 | GET      "/api/v1/cpi/readiness/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 417 |     295.171µs |       127.0.0.1 | GET      "/api/v1/wmi/status/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 422 |      59.519µs |       127.0.0.1 | GET      "/api/v1/wmi/stop/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:33] [INF] Initializing the environment, as well as gnb.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:137] [INF] No device parameters are defined in the configuration file.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] gNB Config File:             /etc/t9s/athena/wmi/gnb.conf
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] gNB ID:                      50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] gNB Name:                    hydra-oai-gnb
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] gNB Mode:                    standalone
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] Cell Type:                   CELL_MACRO_GNB
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] TR S Preference:             local_mac 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] Device Model:                rf-simulator
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] Device Addresses:            
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] Device Parameters:           
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:138] [INF] Device Serial Number:        
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:141] [INF] Running in RF simulator mode.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:153] [WAR] SDR kernel module is not loaded. This snap cannot use SDR without the module.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/init:156] [SUC] oai-ran.gnb init is done.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 201 |  158.609899ms |       127.0.0.1 | GET      "/api/v1/wmi/init/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/toolbox] -----------------------------------------------------------
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] config file: config.yamlGo-getter: /etc/bases/gnb.conf.tpl -> gnb.conf.hcg
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] Checking if t-tracer is in []
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] [] is a slice of length 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] Checking if ue-measurement is in []
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] [] is a slice of length 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:46:37Z" level=info msg="freq: 3619200, nrb: 106, ssc: 30, pa: 3600120"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:07Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: Get \"http://oai-upf.minimal.eurecom.t9s.local.:60001/api/v1/depends/eth0\": dial tcp 10.2.215.58:60001: i/o timeout"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:08Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:09Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:10Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:11Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:12Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:13Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:14Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:15Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:16Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:17Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:18Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:19Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:20Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:21Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:22Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:23Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:24Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:25Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:26Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:27Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:28Z" level=error msg="Error resolving dependency for oai-upf.minimal.eurecom.t9s.local.: status code received is not 200: 424"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] Go-getter: /etc/t9s/athena/internal/sdk.json -> sdk.json.hcg
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="[PST] 2023/11/22 - 15:47:29 | 100 |            0s |         0.0.0.0 | CONFIGURE        \"Wrote 507 bytes on sdk.json\""
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Wrote the file" bytes=360 logger=manager.SVM path=api.json
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Wrote the file" bytes=360 logger=manager.SVM path=wmi.json
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Wrote the file" bytes=348 logger=manager.SVM path=meta.json
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Running WMI client" address=127.0.0.1 logger=manager port=60002
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Registering to watch" file=/etc/t9s/athena/base/patch.yaml hash=a81a10e7da5c0fdff19a54a23cd8b3d0ae97ccd74992a5df3215470ddcf475af logger=manager.SVM
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Registering to watch" file=/etc/t9s/athena/base/slice.yaml hash=273c5b5329e21bcc9fad9cabd67b0e1fb067dde76b814edea7ac5a116af451bf logger=manager.SVM
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Registering to watch" file= hash= logger=manager.SVM
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg="Registering to watch" file= hash= logger=manager.SVM
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:29Z" level=info msg=GIN client-ip=127.0.0.1 fields.time="2023/11/22 - 15:47:29" latency=256544 logger=manager.WMI method=STATUS path= status=503
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:31Z" level=info msg=GIN client-ip=127.0.0.1 fields.time="2023/11/22 - 15:47:31" latency=1232106 logger=manager.WMI method=STATUS path= status=417
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:31Z" level=info msg=GIN client-ip=127.0.0.1 fields.time="2023/11/22 - 15:47:31" latency=535751 logger=manager.WMI method=STOP path= status=422
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:31Z" level=info msg=GIN client-ip=127.0.0.1 fields.time="2023/11/22 - 15:47:31" latency=159267582 logger=manager.WMI method=INIT path="The application has exited normally." status=201
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/manager] time="2023-11-22T15:47:31Z" level=info msg=GIN client-ip=127.0.0.1 fields.time="2023/11/22 - 15:47:31" latency=1091752 logger=manager.WMI method=START path="Process for app gnb started successfully with pid 699" status=202
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [GIN] 2023/11/22 - 15:47:31 | 202 |     636.668µs |       127.0.0.1 | GET      "/api/v1/wmi/start/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/run:128] [INF] No device parameters are defined in the configuration file.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/run:133] [INF] Running in RF simulator mode.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [/opt/hydra/run:152] [INF] Running gnb as: /opt/hydra/ran/gnb -O /etc/t9s/athena/wmi/gnb.conf --sa 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [1;31m[HW]   Can't set /dev/cpu_dma_latency to 2 us
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[1;31m[HW]   Can't set cpu frequency
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ENB_APP]   nfapi running mode: MONOLITHIC
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   Getting GNBSParams
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GIN] 2023/11/22 - 15:47:32 | 503 |      86.545µs |      10.2.130.1 | GET      "/api/v1/cpi/readiness/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[OPT]   OPT disabled
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[HW]   Version: Branch: br-oai-ran Abrev. Hash: 00c87fdc4a Date: Mon Nov 13 18:28:58 2023 +0100
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   RC.gNB = 0x42d7c80
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   PRB blacklist 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   L1_RX_THREAD_CORE -1 (16)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x42d26a0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   create_gNB_tasks() Task ready initialize structures
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   PRB blacklist 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   L1_RX_THREAD_CORE -1 (16)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   No prs_config configuration found..!!
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   pdsch_AntennaPorts N1 1 N2 1 XP 1 pusch_AntennaPorts 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   minTXRXTIME 4
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   SIB1 TDA 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   CSI-RS 0, SRS 0, 256 QAM may be on
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -104
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   absoluteFrequencySSB 641280 corresponds to 3619200000 Hz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread MAC_STATS with affinity -1 and priority 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Configuring common parameters from NR ServingCellConfig
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   config_common() dl_BandwidthP:40
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   config_common() dl_BandwidthP:40
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   ssb_OffsetPointA 86, ssb_SubcarrierOffset 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Set RX antenna number to 1, Set TX antenna number to 1 (num ssb 1: 80000000,0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Setting TDD configuration period to 5
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   TDD has been properly configurated
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   DL frequency 3619200000 Hz, UL frequency 3619200000 Hz: band 48, uldl offset 0 Hz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   gNB 0 configured
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   PUSCH Target 200, PUCCH Target 200, PUCCH Failure 10, PUSCH Failure 10
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[GNB_APP]   no slices transported via F1 Setup Request!
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   SIB1 freq: offsetToPointA 86
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   F1AP: gNB idx 0 gNB_DU_id 50, gNB_DU_name hydra-oai-gnb, TAC 1 MCC/MNC/length 1/2/2 cellID 12345678
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   ngran_DU: Configuring Cell 0 for TDD
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   create_gNB_tasks() RC.nb_nr_L1_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0mCMDLINE: "/opt/hydra/ran/gnb" "-O" "/etc/t9s/athena/wmi/gnb.conf" "--sa" 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] get parameters from libconfig /etc/t9s/athena/wmi/gnb.conf [LIBCONFIG] Path for include directive set to: /etc/t9s/athena/wmi
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] function config_libconfig_init returned 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] config module libconfig loaded
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] debug flags: 0x00000000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] log_config: 53/53 parameters successfully set, (46 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] log init done
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Reading in command-line options
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 40/40 parameters successfully set, (37 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] parallel_conf is set to 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [CONFIG] worker_conf is set to 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] configuring for RAU/RRU
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (14 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Initializing northbound interface for L1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (14 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Initializing northbound interface for L1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list prs_config not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].servingCellConfigCommon.[0].servingCellConfigDedicated not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] DL frequency 3619200000: band 48, UL frequency 3619200000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] NRRRC 0: Southbound Transport local_mac
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameter[GNB_APP]   SDAP layer is disabled
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   Data Radio Bearer count 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   do_SIB23_NR, size 9 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb]  [0m[PDCP]   pdcp init,usegtp 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   default drx 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread TASK_SCTP with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Created Posix thread TASK_SCTP
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[X2AP]   X2AP is disabled.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread TASK_NGAP with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Created Posix thread TASK_NGAP
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread TASK_GNB_APP with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   Starting NGAP layer
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   Registered new gNB[0] and macro gNB id 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   [gNB 0] check the amf registration state
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   50 -> 00000320
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   servedGUAMIs.list.count 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   PLMNSupportList.list.count 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   PLMNSupportList.list.count 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Created Posix thread TASK_GNB_APP
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Creating NR RRC gNB Task, that will also create TASKS
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread TASK_RRC_GNB with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Created Posix thread TASK_RRC_GNB
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Entering main loop of NR_RRC message task
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Received F1 Setup Request from gNB_DU 50 (hydra-oai-gnb) on assoc_id 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   Accepting DU 50 (hydra-oai-gnb), sending F1 Setup Response
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[MAC]   received F1 Setup Response from CU (null)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   Configuring GTPu
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   SA mode 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   Configuring GTPu address : 10.2.130.89, port : 2152
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   Initializing UDP for local address 10.2.130.89 with port 2152
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   Created gtpu instance id: 99
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread TASK_GTPV1_U with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initializing gNB 0 single_thread_flag:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initializing gNB 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Registering with MAC interface module (before 0x42d26a0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Registering with MAC interface module (after 0x42d26a0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Setting indication lists
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [nr-gnb.c] gNB structure allocated
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU GPIO control set as 'generic'
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU clock source set as internal
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Setting time source to internal
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 16
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[1;31m[PHY]   DJP - delete code above this /root/parts/ran/src/executables/nr-ru.c:1823
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Copying frame parms from gNB in RC to gNB 0 in ru 0 and frame_parms in ru
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Starting ru_thread 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initialized RU proc 0 (,synch_to_ext_device),
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU Thread pool size 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU thread-pool core string -1,-1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GNB_APP]   RCconfig_NR_E2agent SM DIR: /opt/hydra/usr/lib/flexric/ NearRT-RIC IP:127.0.0.1  Port:36421
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GIN] 2023/11/22 - 15:47:33 | 503 |      46.368µs |      10.2.130.1 | GET      "/api/v1/cpi/readiness/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] s successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] MACRLCs.[0]: 34/34 parameters successfully set, (28 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] list gNBs.[0].E1_INTERFACE not found in config file /etc/t9s/athena/wmi/gnb.conf 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] START MAIN THREADS
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] RC.nb_nr_L1_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] wait_gNBs()
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] gNB L1 are configured
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] About to Init RU threads RC.nb_RU:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Initializing RU threads
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] configuring RU from file
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] RUs.[0]: 43/43 parameters successfully set, (35 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] gNBs.[0]: 28/28 parameters successfully set, (18 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Set RU mask to 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Creating RC.ru[0]:0x4339400
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Setting function for RU 0 to gNodeB_3GPP
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [RU 0] Setting nr_flag 0, nr_band 78, nr_scs_for_raster 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [RU 0] Setting half-slot parallelization to 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] configuring ru_id 0 (start_rf 0x6f00e0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] e2_agent: 3/3 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: mcc = 1 mnc = 2 mnc_digit = 2 nd_id = 50 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Args 127.0.0.1 36421 /opt/hydra/usr/lib/flexric/ 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2 AGENT]: nearRT-RIC IP Address = 127.0.0.1, PORT = 36421, RAN type = ngran_gNB, nb_id = 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Initializing ... 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libtc_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libgtp_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libkpm_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libmac_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libslice_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/libpdcp_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /[UTIL]   Creating thread ru_thread with affinity -1 and priority 97
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Waiting for RUs to be configured ... RC.ru_mask:01
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Starting RU 0 (,synch_to_ext_device) on cpu 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[PHY]   Init: N_RB_DL 106, first_carrier_offset 1412, nb_prefix_samples 144,nb_prefix_samples0 176, ofdm_symbol_size 2048
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->scs=30000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->ofdm_symbol_size=2048
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->nb_prefix_samples0=176
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->nb_prefix_samples=144
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->slots_per_subframe=2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->samples_per_subframe_wCP=57344
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->samples_per_frame_wCP=573440
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->samples_per_subframe=61440
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->samples_per_frame=614400
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->dl_CarrierFreq=3619200000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   fp->ul_CarrierFreq=3619200000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Setting RF config for N_RB 106, NB_RX 1, NB_TX 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Channel 0: setting tx_gain offset 0, rx_gain offset 120, tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0 Hz, sample_rate 61440000 Hz
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [INIT] common.txdata[0] = 0x7f2c5437e040 (2457600 bytes,sf_extension 0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [INIT] common.txdata[0] = 0x7f2c5437e040 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   nb_tx 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   rxdata_7_5kHz[0] 0x7f2c54034040 for RU 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [INIT] common.txdata_BF= 0x7f2c40000b00 (8 bytes)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   txdataF_BF[0] 0x7f2c47d96040 for RU 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   rxdataF[0] 0x7f2c47d25040 for RU 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[HW]   sample_rate 61440000.000000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[HW]   Running as server waiting opposite rfsimulators to connect
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[HW]   [RAU] has loaded RFSIMULATOR device.
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU 0 Setting N_TA_offset to 800 samples (factor 2.000000, UL Freq 3600120, N_RB 106, mu 1)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RUs configured
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f2c6711f010
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Initialise nr transport
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GIN] 2023/11/22 - 15:47:34 | 503 |      81.351µs |      10.2.130.1 | GET      "/api/v1/cpi/readiness/gnb"
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [PHY]   Mapping RX ports from 1 RUs to gNB 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   gNB->num_RU:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool0_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool1_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool2_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool3_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool4_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool5_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool6_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread Tpool7_-1 with affinity -1 and priority 50
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   Creating thread for TX reordering and dispatching to RU
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread thread_tx_reorder with affinity -1 and priority 97
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[UTIL]   Creating thread L1_stats with affinity -1 and priority 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0mopt/hydra/usr/lib/flexric/librc_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Opening plugin from path = /opt/hydra/usr/lib/flexric/librlc_sm.so 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2-AGENT]: Sending setup request
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] wait RUs
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] device: 1/1 parameters successfully set, (0 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] loader.rfsimulator: 2/2 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] shlib_path librfsimulator.so
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LOADER] library librfsimulator.so successfully loaded
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] rfsimulator: 9/9 parameters successfully set, (5 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Initializing random number generator, seed 13952967620684389108
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] setup_RU_buffers: frame_parms = 0x7f2c566ac010
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] waiting for sync (ru_thread,-1/0x120388c,0x2a381c8,0x2a37470)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] RC.ru_mask:00
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] ALL RUs READY!
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] RC.nb_RU:1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] ALL RUs ready - init gNBs
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Not NFAPI mode - call init_eNB_afterRU()
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] shlib_path libdfts.so
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LOADER] library libdfts.so successfully loaded
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] shlib_path libldpc.so
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [LOADER] library libldpc.so successfully loaded
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] create a thread for core -1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] waiting for sync (L1_stats_thread,-1/0x120388c,0x2a381c8,0x2a37470)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] ALL RUs ready - ALL gNBs ready
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Sending sync to all threads
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] Entering ITTI signals handler
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] TYPE <CTRL-C> TO TERMINATE
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] got sync (ru_thread)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] got sync (L1_stats_thread)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_default=134217728" to increase RFsim performance
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.rmem_max=134217728" to increase RFsim performance
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_default=134217728" to increase RFsim performance
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[HW]   running command "/sbin/sysctl -n -e -q -w net.core.wmem_max=134217728" to increase RFsim performance
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU 0 rf device ready
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   RU 0 RF started opp_enabled 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[HW]   No connected device, generating void samples...
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[PHY]   tx_reorder_thread started
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[HW]   A client connects, sending the current time
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_PHY]   [gNB 0][RAPROC] Frame 631, slot 19 Initiating RA procedure with preamble 28, energy 54.9 dB (I0 0, thres 120), delay 0 start symbol 4 freq index 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[MAC]   UL_info[Frame 631, Slot 19] Calling initiate_ra_proc RACH:SFN/SLOT:631/19
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 631 Activating Msg2 generation in frame 632, slot 7 using RA rnti 10f SSB, new rnti 8579 index 0 RA index 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[NR_MAC]   [gNB 0][RAPROC] CC_id 0 Frame 632, slotP 7: Generating RA-Msg2 DCI, rnti 0x10f, state 1, CoreSetType 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   [RAPROC] Msg3 slot 17: current slot 7 Msg3 frame 632 k2 7 Msg3_tda_id 3
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[NR_MAC]   [gNB 0][RAPROC] Frame 632, Subframe 7: rnti 8579 RA state 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Adding UE with rnti 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   [gNB 0][RAPROC] PUSCH with TC_RNTI 0x8579 received correctly, adding UE MAC Context RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[NR_MAC]   [RAPROC] RA-Msg3 received (sdu_lenP 7)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[MAC]   [RAPROC] Received SDU for CCCH length 6 for UE 8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RLC]   activated srb0 for UE with RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RLC]   /root/parts/ran/src/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:795:nr_rlc_add_srb: added srb 1 to UE with RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Activating scheduling RA-Msg4 for TC_RNTI 0x8579 (state 2)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[NR_MAC]   Unexpected ULSCH HARQ PID 0 (have -1) for RNTI 0x8579 (ignore this warning for RA)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Decoding CCCH: RNTI 8579, payload_size 6
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Returning new RRC UE context RRC ue id: 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Created new UE context: CU UE ID 1 DU UE ID 34169 (rnti: 8579, random ue id 50ec3b725a000000)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   rrc_gNB_generate_RRCSetup for RNTI 8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   No CU UE ID stored for UE RNTI 8579, adding CU UE ID 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   ( 633. 5) SRB0 has 137 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   UE 8579 Generate msg4: feedback at  633. 9, payload 149 bytes, next state WAIT_Msg4_ACK
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[NR_MAC]   (UE RNTI 0x8579) Received Ack of RA-Msg4. CBRA procedure succeeded!
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    633.15 UE 8579: Activate RRC processing timer (10 ms)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    635. 1 RNTI 8579: RRC processing timer expired
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Received rrcSetupComplete, 5g_s_TMSI: 0x123456789ABC, amf_set_id: 0x48(72), amf_pointer: 0x34(52), 5g TMSI: 0x56789ABC 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] [RAPROC] Logical Channel UL-DCCH, processing NR_RRCSetupComplete from UE (SRB1 Active)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] UE State = NR_RRC_CONNECTED 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   [gNB 0] Chose AMF 'hydra-oai-amf' (assoc_id 7) through selected PLMN Identity index 0 MCC 1 MNC 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   NGAP_FIND_PROTOCOLIE_BY_ID ie is NULL (searching for ie: 110)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[1;31m[NGAP]   could not found NGAP_ProtocolIE_ID_id_UEAggregateMaximumBitRate
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   NGAP_FIND_PROTOCOLIE_BY_ID ie is NULL (searching for ie: 71)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   AllowedNSSAI.list.count 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   selecting ciphering algorithm 0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   selecting integrity algorithm 2
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [gNB 0][UE 8579] Selected security algorithms (0x7f2c58004bf4): 0, 2, changed
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [gNB 0][UE 8579] Saved security key 8595CFE13BBE8B352F925ACD56F8DD9AA0DEBB9F5902272B289084884C74BD57
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   UE 8579 Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] received securityModeComplete on UL-DCCH 1 from UE
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] Logical Channel DL-DCCH, Generate NR UECapabilityEnquiry (bytes 8)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    639.10 UE 8579: Activate RRC processing timer (10 ms)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (1 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 9/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.10000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 1078
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 18/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.10000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2088, ulsch_total_bytes_received 2088
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            341 RX            163 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    640.16 RNTI 8579: RRC processing timer expired
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    640.16 RNTI 8579: Apply CellGroupConfig after RRC processing timer expiry
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   got UE capabilities for UE 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Send message to ngap: NGAP_UE_CAPABILITIES_IND
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Searching for nr band 78 DL Carrier frequency 3619200000 bw 40000000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[RRC]   freqpointa 3600120000 Hz/640008 offsetToPointA 86 kssb 0 scs 1 band 78 band_size_hz 40000000 freqssb 3619200000 Hz/641280
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[NR_RRC]   do_RRCReconfiguration(): size 226
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [gNB 0] Frame 0, Logical Channel DL-DCCH, Generate NR_RRCReconfiguration (bytes 226, UE id 8579)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Receive RRC Reconfiguration Complete message UE 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[1;31m[PDCP]   /root/parts/ran/src/openair2/LAYER2/nr_pdcp/nr_pdcp_oai_api.c:788:add_srb: warning SRB 1 already exist for UE ID/RNTI 1, do nothing
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Send message to sctp: NGAP_InitialContextSetupResponse
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   PDUSESSIONSetup initiating message
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [gNB 0] gNB_ue_ngap_id 1 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Adding pdusession 0, total nb of sessions 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   adding rnti 8579 pdusession 10, nb drb 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[NR_RRC]   recreate existing tunnels, while adding new ones
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[GTPU]   [99] Created tunnel for UE ID 1, teid for incoming: ca82af91, teid for outgoing 1 to remote IPv4: 10.2.129.82, IPv6 ::
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 1] nr_rrc_gNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (3397562257) bearer UE context index 0, id 10, gtp addr len 4 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[SDAP]   Default DRB for the created SDAP entity: 1 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RLC]   /root/parts/ran/src/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:795:nr_rlc_add_srb: added srb 2 to UE with RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RLC]   /root/parts/ran/src/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:870:add_drb_am: added drb 1 to UE with RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RLC]   /root/parts/ran/src/openair2/LAYER2/nr_rlc/nr_rlc_oai_api.c:nr_rlc_add_drb:950: added DRB to UE with RNTI 0x8579
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   UE 8579: received capabilities, updating CellGroupConfig
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[RRC]   UE 8579 replacing existing CellGroupConfig with new one received from DU
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   adding rnti 8579 pdusession 10, nb drb 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   add NAS info with size 95 (pdusession idx 0)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   [gNB 0] Frame 0, Logical Channel DL-DCCH, Generate RRCReconfiguration (bytes 264, UE RNTI 8579)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    748. 9 UE 8579: Activate RRC processing timer (10 ms)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    749.15 RNTI 8579: RRC processing timer expired
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]    749.15 RNTI 8579: Apply CellGroupConfig after RRC processing timer expiry
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   Receive RRC Reconfiguration Complete message UE 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[1;31m[PDCP]   /root/parts/ran/src/openair2/LAYER2/nr_pdcp/nr_pdcp_oai_api.c:788:add_srb: warning SRB 1 already exist for UE ID/RNTI 1, do nothing
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[93m[PDCP]   /root/parts/ran/src/openair2/LAYER2/nr_pdcp/nr_pdcp_oai_api.c:887:add_drb: warning DRB 1 already exist for UE ID/RNTI 1, do nothing
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[32m[NR_RRC]   [gNB 0] Frame  0 : Logical Channel UL-DCCH, Received NR_RRCReconfigurationComplete from UE rnti 1, reconfiguring DRB 1
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_RRC]   msg index 0, pdu_sessions index 0, status 2, xid 0): nb_of_pdusessions 1,  pdusession_id 10, teid: 3397562257 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb]  [0m[NR_RRC]   NGAP_PDUSESSION_SETUP_RESP: sending the message
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NGAP]   pdusession_setup_resp_p: pdusession ID 10, gnb_addr 10.2.130.89, SIZE 4 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (31 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 29/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.02824 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 3838
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 521/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.02542 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 60436, ulsch_total_bytes_received 60320
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 45/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00798 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 5806
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 1033/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00646 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 119828, ulsch_total_bytes_received 119712
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX            186 RX            186 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 64/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00203 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 8836
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 1545/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00182 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 179744, ulsch_total_bytes_received 179628
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           1177 RX           1187 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 81/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00052 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 11620
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 2057/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00046 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 239660, ulsch_total_bytes_received 239544
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           2075 RX           2095 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 102/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00013 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 15589
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 2569/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00012 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 300100, ulsch_total_bytes_received 299984
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           3871 RX           3911 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 121/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00003 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 19312
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 3081/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00003 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 360540, ulsch_total_bytes_received 360424
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           5574 RX           5634 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 139/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00001 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 22219
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 3593/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00001 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 420456, ulsch_total_bytes_received 420340
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           6565 RX           6640 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 158/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 25942
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 4105/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 480896, ulsch_total_bytes_received 480780
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           8268 RX           8368 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 177/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 28972
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 4617/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 540812, ulsch_total_bytes_received 540696
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           9259 RX           9369 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 193/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 30940
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 5129/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 600204, ulsch_total_bytes_received 600088
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           9445 RX           9555 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 208/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 32785
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 5641/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 659596, ulsch_total_bytes_received 659480
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           9538 RX           9648 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 224/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 34753
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 6153/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 718988, ulsch_total_bytes_received 718872
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           9724 RX           9834 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 239/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 36598
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 6665/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 778380, ulsch_total_bytes_received 778264
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX           9817 RX           9927 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 256/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 38689
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 7177/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 837772, ulsch_total_bytes_received 837656
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10003 RX          10113 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 271/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 40534
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 7689/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 897164, ulsch_total_bytes_received 897048
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10096 RX          10206 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 288/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 42625
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 8201/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 956556, ulsch_total_bytes_received 956440
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10282 RX          10392 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 302/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 44347
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 8713/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1015948, ulsch_total_bytes_received 1015832
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10375 RX          10485 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 319/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 46438
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 9225/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1075340, ulsch_total_bytes_received 1075224
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10561 RX          10671 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 336/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 48529
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 9737/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1134732, ulsch_total_bytes_received 1134616
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10747 RX          10857 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 351/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 50374
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 10249/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1194124, ulsch_total_bytes_received 1194008
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          10840 RX          10950 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0mtimeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [NR_RRC]   
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] KgNB:85 95 cf e1 3b be 8b 35 2f 92 5a cd 56 f8 dd 9a a0 de bb 9f 59 02 27 2b 28 90 84 88 4c 74 bd 57 [0m
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [NR_RRC]   
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] KRRCenc:ed 79 35 43 7b 0d ca 8d 44 b6 08 60 b9 d6 c3 af [0m
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [NR_RRC]   
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] KRRCint:ba b5 30 14 24 0d fd ff 59 32 d3 ac 44 6f 45 5a [0m
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 setup
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [E2AP] Resending Setup Request after timeout
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] timeout on E2 Setup request: sending again E2 set[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 368/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 52465
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 10761/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1253516, ulsch_total_bytes_received 1253400
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11026 RX          11136 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 382/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 54187
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 11273/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1312908, ulsch_total_bytes_received 1312792
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11119 RX          11229 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 398/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 56155
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 11785/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1372300, ulsch_total_bytes_received 1372184
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11305 RX          11415 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 413/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 58000
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 12297/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1431692, ulsch_total_bytes_received 1431576
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11398 RX          11508 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 430/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 60091
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 12809/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1491084, ulsch_total_bytes_received 1490968
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11584 RX          11694 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 445/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 61936
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 13321/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1550476, ulsch_total_bytes_received 1550360
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11677 RX          11787 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 461/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 63904
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 13833/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1609868, ulsch_total_bytes_received 1609752
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          11863 RX          11973 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 477/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 65872
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 14345/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1669260, ulsch_total_bytes_received 1669144
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12049 RX          12159 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 492/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 67717
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 14857/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1728652, ulsch_total_bytes_received 1728536
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12142 RX          12252 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 509/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 69808
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 15369/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1788044, ulsch_total_bytes_received 1787928
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12328 RX          12438 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 524/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 71653
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 15881/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1847436, ulsch_total_bytes_received 1847320
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12421 RX          12531 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 540/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 73621
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 16393/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1906828, ulsch_total_bytes_received 1906712
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12607 RX          12717 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 555/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 75466
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 16905/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 1966220, ulsch_total_bytes_received 1966104
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12700 RX          12810 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 572/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 77557
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 17417/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2025612, ulsch_total_bytes_received 2025496
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          12886 RX          12996 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 589/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 79648
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 17929/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2085004, ulsch_total_bytes_received 2084888
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13072 RX          13182 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 603/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 81370
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 18441/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2144396, ulsch_total_bytes_received 2144280
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13165 RX          13275 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 619/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 83338
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 18953/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2203788, ulsch_total_bytes_received 2203672
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13351 RX          13461 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 634/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 85183
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 19465/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2263180, ulsch_total_bytes_received 2263064
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13444 RX          13554 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 651/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 87274
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 19977/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2322572, ulsch_total_bytes_received 2322456
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13630 RX          13740 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 668/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 89365
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 20489/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2381964, ulsch_total_bytes_received 2381848
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13816 RX          13926 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 683/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 91210
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 21001/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2441356, ulsch_total_bytes_received 2441240
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          13909 RX          14019 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 699/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 93178
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 21513/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2500748, ulsch_total_bytes_received 2500632
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14095 RX          14205 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 714/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 95023
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 22025/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2560140, ulsch_total_bytes_received 2560024
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14188 RX          14298 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 731/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 97114
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 22537/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2619532, ulsch_total_bytes_received 2619416
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14374 RX          14484 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 747/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 99082
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 23049/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2678924, ulsch_total_bytes_received 2678808
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14560 RX          14670 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 762/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 100927
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 23561/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2738316, ulsch_total_bytes_received 2738200
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14653 RX          14763 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 778/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 102895
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 24073/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2797708, ulsch_total_bytes_received 2797592
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14839 RX          14949 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 792/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 104617
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 24585/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2857100, ulsch_total_bytes_received 2856984
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          14932 RX          15042 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 809/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 106708
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 25097/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2916492, ulsch_total_bytes_received 2916376
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15118 RX          15228 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 824/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 108553
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 25609/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 2975884, ulsch_total_bytes_received 2975768
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15211 RX          15321 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 841/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 110644
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 26121/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3035276, ulsch_total_bytes_received 3035160
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15397 RX          15507 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 855/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 112366
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 26633/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3094668, ulsch_total_bytes_received 3094552
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15490 RX          15600 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 256.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 872/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 114457
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 27145/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3154060, ulsch_total_bytes_received 3153944
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15676 RX          15786 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 384.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 887/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 116302
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 27657/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3213452, ulsch_total_bytes_received 3213336
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15769 RX          15879 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 512.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 904/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 118393
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 28169/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3272844, ulsch_total_bytes_received 3272728
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          15955 RX          16065 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 640.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 921/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 120484
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 28681/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3332236, ulsch_total_bytes_received 3332120
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          16141 RX          16251 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 768.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 935/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 122206
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 29193/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3391628, ulsch_total_bytes_received 3391512
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          16234 RX          16344 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 896.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 952/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 124297
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 29705/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3451020, ulsch_total_bytes_received 3450904
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          16420 RX          16530 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 0.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 967/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 126142
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 30217/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3510412, ulsch_total_bytes_received 3510296
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          16513 RX          16623 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] [0m[NR_MAC]   Frame.Slot 128.0
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE RNTI 8579 (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (32 meas)
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_rounds 984/0/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: dlsch_total_bytes 128233
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_rounds 30729/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: ulsch_total_bytes_scheduled 3569804, ulsch_total_bytes_received 3569688
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 1: TX            862 RX            286 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 2: TX              0 RX              0 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] UE 8579: LCID 4: TX          16699 RX          16809 bytes
+[pod/oai-gnb.oai-gnb.eurecom-66dd474ffd-bjpc6/gnb] 

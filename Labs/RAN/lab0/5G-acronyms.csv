@@ -1,0 +1,204 @@
+﻿Acronym,Meaning
+(N)FAPI,(Network) Functional Application Platform Interface
+3GPP,3d Generation Partnership Project
+5G CU,5G Centralized Unit (ran)
+5GC,5G Core
+5G DU,5G Distributed Unit (ran)
+5G EN-DC,5G E-UTRA-NR Dual Connectivity
+5G NR,5G New Radio
+NR-V2X,5G Vehicle to anything
+AMF,Access and Mobility Management Function
+AS,Access Stratum
+AM,Acknowledge Mode in RLC
+AMC,Adaptive Modulation Coding
+AF,Application Function
+ATM,Asynchronous Transfer Mode
+AUSF,Authentication Server Function
+AUTN,Authentication Vector
+ARQ,Automatic Repeat Request
+BWP,BandWidth Part
+BCH,Broadcast Channel
+BCCH,Broadcast Control Channel
+BAR,Buffering Action Rule
+CBS,Cell Broadcast Service
+C-RNTI,Cell-Radio Network Temporary Identifier
+COTS hardware,Commerical-off-the-shelf hardware
+CCCH,Common Control Channel
+CRB,Common Resource Block
+CB-RA,Contention-Based Random Access
+CF-RA,Contention-Free Random Access
+CN,Core Network
+CT,Core Network and Terminals
+CovEnh,Coverage Enhancement
+CRC,Cyclic Redundant Check
+DN,Data Network
+DRB,Data Radio Bearer
+DCCH,Dedicated Control Channel
+DTCH,Dedicated Traffic Channel
+D2D,Device to Device
+DRX,Discontinuous Reception
+DL,Down Link
+DCI,Downlink Control Information
+DL-SCH,Downlink Shared Channel
+DC,Dual Connectivity
+eNB,E Node B (4G)
+EN-DC,E-UTRAN New radio Dual Connectivity
+EDGE,Enhanced Data rate for GSM Evolution
+eMTC,Enhanced Machine-Type Communication
+eMBB,Enhanced Mobile Broad Band
+eMBMS,Evolved Multimedia Broadcast Multicast Services
+EPC,Evolved Packet Core
+E-UTRAN,Evolved UMTS Terrestrial Radio Access Network (4G)
+FAR,Forwarding Action Rule
+FDD,Frequency Division Duplex
+gNB,G Node B (5G antenna - 5G for user and control planes)
+GPRS,General Packet Radio Service
+GSM,Global System for Mobile communications
+GUTI,Global Unique Temorary Identifier
+GUAMI,Globally Unique AMF ID
+GUMMEI,Globally Unique MME Identifier (part of GUTI)
+GTP,GPRS Tunneling Protocol
+GERAN,GSM Edge Radio Access Network
+GBR,Guaranteed Bit Rate
+GFBR,Guaranteed Flow Bit Rate
+HSPA,High-Speed Packet Access
+HeNB,Home eNodeB
+HPLMN,Home Public Land Mobile Network
+HSS,Home Subscriber Service (4G core)
+HARQ,Hybrid Automatic Repeat Request
+IMSI,International Mobile Subscriber Identity
+IMT,International Mobile Telecommunications
+IMS,IP Multimedia Subsystem (example voice)
+LTE,Long Term Evolution (4G)
+LDPC,Low Density Parity Code
+MMTC,Massive Machine-Type Communications
+MCG,Master Cell Group
+MeNB,Master e Node B
+MgNB,Master gNB
+MIB,Master Information Block
+MFBR,Maximum Flow Bit Rate
+MMEI,MME Identifier
+MCC,Mobile Country Code
+MNC,Mobile National Code
+MSIN,Mobile Subsriber Identification Number
+MVNO,Mobile Virtual Network Operator
+MM,Mobility Management
+MME,Mobility Management Entity (4G core)
+MEC,Multi-Access Edge Computing
+MIMO,Multiple Input Multiple Output
+MISO,Multiple Input Single Output
+NAI,Network Access Identifier
+NWDAF,Network Data Analytics Function
+NEF,Network Exposure Function
+NF,Network Function
+NFV,Network Function Virtualization
+NRF,Network Repository Function
+NSI,Network Slice Instance
+NSSAI,Network Slice Selection Assistance Information
+NSSF,Network Slice Selection Function
+NR,New Radio (5G)
+ng-eNB,Next Generation E Node B (evolved 4G antenna in 5G net)
+NGMN,Next Generation Mobile Networks
+NG-RAN,Next Generation Radio Access Network
+NG-AP,NG Access Protocol
+NG-C,NG Control
+NAS,Non-Access Stratum
+NSA,Non-Standalone
+O-RAN,Operator defined next gen RAN arhcitecture &interface
+OFDM,Orthogonal Frequency-Division Multiplexing
+PDPC,Packet Data Convergence Protocol
+PDN,Packet Data Network
+PDI,Packet Detection Information
+PDR,Packet Detection Rule
+PFCP,Packet Forwarding Control Protocol
+P-GW,Packet Gateway (4G core)
+PCH,Paging Channel
+PCCH,Paging Control Channel
+PON,Passive Optical Network
+PDSCH CSI-RS,PDSCH Channel State Information Reference Signal
+PTRS,Phase-Tracking Reference Signal
+PBCH,Physical Broadcast Channel
+PDCCH,Physical Downlink Control Channel
+PDSCH,Physical Downlink Shared Channel
+PRACH,Physical Random Access Channel
+PRB,Physical Resource Block
+PUCCH,Physical Uplink Control Channel
+PUSCH,Physical Uplink Shared Channel
+PCRF,Policy and Charging Rules Function
+PCF,Policy Control Function
+PSS,Primary Synchronization Signal
+PDU,Protocol Data Unit
+PMIP,Proxy Mobile IP
+PLMN,Public Land Mobile Network
+QER,QoS Enforcement Rule
+QFI,QoS Flow Id
+QAM,Quadrature Amplitude Modulation
+QOS,Quality Of Service
+RAN,Radio Access Network
+RAT,Radio Access Technology
+RB,Radio Bearer
+RLC,Radio Link Control
+RRC,Radio Resource Controller
+RRM,Radio Resource Management
+RU,Radio Unit (in ran)
+RNA,RAN-based Notification Area
+RACH,Random Access Channel
+RAR,Random Access Response
+RedCap,Reduced Capacity Devices
+RQA,Reflective QoS Attribute
+RE,Resource Element
+ROHC,Robust Header Compression
+SCG,Secondary Cell Group
+SgNB,Secondary eNB
+SSS,Secondary Synchronization Signal
+SCP,Service Communication Proxy
+SDAP,Service Data Adaptation Protocol
+SDU,Service Data Unit
+SA,Services and Systems Aspects
+S-GW,Serving GateWay (4G core)
+SGSN,Serving GPRS Support Node
+S-TMSI,Serving Temporary Mobile Subscriber Identity (used for paging)
+SM,Session Management
+SMF,Session Management Function
+SNR,Signal-to-Noise Ratio
+SRB,Signalling Radio Bearer
+SIMO,Single Input Multiple Output
+SC-FDMA,Single-Carrier Frequency-Division Multiple Access
+SD,Slice Differentiator
+SST,Slice/Service Type
+SCF,Small-Cell Forum
+Small-Cell PNF,Small-Cell Physical Network Function
+Small-Cell VNF,Small-Cell Virtual Network Function
+SRS,Sounding Reference Signal
+SSB DMRS,SSB Demodulation Reference Signal
+SA,Standalone
+SCTP,Stream Control Transmission Protocol
+SCS,SubCarrier Spacing
+SUCI,Subscriber Concealed Identifier
+SUPI,Subscription Permanent Identifier
+SDL/SUL,Supplementary UpLink/DownLink
+SSB,Synchronization Signal Block
+SAE,System Architecture Evolution - Core net architecture for 3GPP's LTE wireless communication standard
+SIB,System Information Block
+T-CRNTI,Temporary Cell Radio Network Temporary Identifier
+TDD,Time Division Duplex
+TA,Timing Advance
+TA,Tracking Area = Many eNBs
+TAC,Tracking Area Code
+TAI,Tracking Area Identity
+TM,Transparent Mode in RLC
+UC,Ultra Capacity
+URLLC,Ultra Reliable Low Latency Communications
+UM,Unacknowledged Mode in RLC
+UDM,Unified Data Management
+UDR,Unified Data Repository
+UMTS,Universal Mobile Telecommunications Systems
+UDSF,Unstructured Data Storage Function
+UL,Up Link
+UCI,Uplink Control Information
+UL-SCH,UpLink Shared Channel
+URR,Usage Reporting Rule
+UE,User Equipment
+UPF,User Plane Function
+VNF,Virtual Network Function
+WAP,Wireless Application Protocol

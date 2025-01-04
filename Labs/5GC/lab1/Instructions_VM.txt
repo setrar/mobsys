@@ -1,0 +1,8 @@
+Instructions to open the VM:
+
+1. Run Vmware workstation
+2. Click on : Open a Virtual Machine
+3. Select the VM located at "E:\TPData\Tp_Mobsys\mobsys"
+4. Click on "I copied it"
+5. The crediantials are: username: mobsys / password: mobsys
+

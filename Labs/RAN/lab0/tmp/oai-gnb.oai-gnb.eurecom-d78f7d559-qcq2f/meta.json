@@ -1,0 +1,29 @@
+{
+    "conf": {
+        "api": {
+            "path": "/etc/t9s/athena/wmi/api.json",
+            "type": "json"
+        },
+        "cu": {
+            "path": "/etc/t9s/athena/wmi/gnb-cu.conf"
+        },
+        "du": {
+            "path": "/etc/t9s/athena/wmi/gnb-du.conf"
+        },
+        "enb": {
+            "path": "/etc/t9s/athena/wmi/enb.conf"
+        },
+        "gnb": {
+            "path": "/etc/t9s/athena/wmi/gnb.conf",
+            "type": "libconfig"
+        },
+        "sdk": {
+            "path": "/etc/t9s/athena/wmi/sdk.json",
+            "type": "json"
+        }
+    },
+    "numa": {
+        "cpu-list": "",
+        "enable": "no"
+    }
+}

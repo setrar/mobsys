@@ -1,0 +1,85 @@
+{
+  "capacity": 100,
+  "heartBeatTimer": 10,
+  "ipv4Addresses": [
+    "192.168.70.140"
+  ],
+  "json_data": null,
+  "nfInstanceId": "5a3fee34-f517-42a5-bb6a-95673d91b411",
+  "nfInstanceName": "OAI-SMF",
+  "nfServices": [
+    {
+      "ipEndPoints": [
+        {
+          "ipv4Address": "192.168.70.140",
+          "port": 80,
+          "transport": ""
+        }
+      ],
+      "nfServiceStatus": "REGISTERED",
+      "scheme": "http",
+      "serviceInstanceId": "nsmf-pdusession",
+      "serviceName": "nsmf-pdusession",
+      "versions": [
+        {
+          "apiFullVersion": "1.0.0",
+          "apiVersionInUri": "v1"
+        }
+      ]
+    }
+  ],
+  "nfStatus": "REGISTERED",
+  "nfType": "SMF",
+  "priority": 1,
+  "sNssais": [
+    {
+      "sd": "128",
+      "sst": 128
+    },
+    {
+      "sd": "1",
+      "sst": 1
+    },
+    {
+      "sd": "1",
+      "sst": 2
+    }
+  ],
+  "smfInfo": {
+    "sNssaiSmfInfoList": [
+      {
+        "dnnSmfInfoList": [
+          {
+            "dnn": "default"
+          }
+        ],
+        "sNssai": {
+          "sd": "128",
+          "sst": 128
+        }
+      },
+      {
+        "dnnSmfInfoList": [
+          {
+            "dnn": "oai"
+          }
+        ],
+        "sNssai": {
+          "sd": "1",
+          "sst": 1
+        }
+      },
+      {
+        "dnnSmfInfoList": [
+          {
+            "dnn": "mobsys"
+          }
+        ],
+        "sNssai": {
+          "sd": "1",
+          "sst": 2
+        }
+      }
+    ]
+  }
+}

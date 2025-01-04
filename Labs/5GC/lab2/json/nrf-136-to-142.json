@@ -1,0 +1,81 @@
+{
+  "capacity": 100,
+  "fqdn": "oai_spgwu_slice1",
+  "heartBeatTimer": 10,
+  "ipv4Addresses": [
+    "192.168.70.142"
+  ],
+  "json_data": null,
+  "nfInstanceId": "5269fd46-2694-4476-accb-05c1c6e9b0f9",
+  "nfInstanceName": "OAI-UPF",
+  "nfServices": [],
+  "nfStatus": "REGISTERED",
+  "nfType": "UPF",
+  "priority": 1,
+  "sNssais": [
+    {
+      "sd": "128",
+      "sst": 128
+    },
+    {
+      "sd": "130",
+      "sst": 130
+    },
+    {
+      "sd": "131",
+      "sst": 131
+    },
+    {
+      "sd": "132",
+      "sst": 132
+    }
+  ],
+  "upfInfo": {
+    "sNssaiUpfInfoList": [
+      {
+        "dnnUpfInfoList": [
+          {
+            "dnn": "default"
+          }
+        ],
+        "sNssai": {
+          "sd": "128",
+          "sst": 128
+        }
+      },
+      {
+        "dnnUpfInfoList": [
+          {
+            "dnn": "test1"
+          }
+        ],
+        "sNssai": {
+          "sd": "130",
+          "sst": 130
+        }
+      },
+      {
+        "dnnUpfInfoList": [
+          {
+            "dnn": "test2"
+          }
+        ],
+        "sNssai": {
+          "sd": "131",
+          "sst": 131
+        }
+      },
+      {
+        "dnnUpfInfoList": [
+          {
+            "dnn": "test3"
+          }
+        ],
+        "sNssai": {
+          "sd": "132",
+          "sst": 132
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "active": [
+        "check",
+        "test",
+        "validate"
+    ],
+    "check": {
+        "sleep": 3,
+        "info": true,
+        "init": true,
+        "plugs": true,
+        "custom": true,
+        "config": true,
+        "service": true
+    },
+    "test": {
+        "name": {
+            "option1": "option1",
+            "option2": ["list-of-options"],
+            "option3": 3,
+            "option4": true
+        }
+    },
+    "validate": [
+        "cn",
+        "api",
+        "sdk"
+    ]
+}

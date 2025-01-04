@@ -1,0 +1,39 @@
+version: '3.8'
+services:
+  my5grantester2:
+    image: my5grantester:latest
+    container_name: my5grantester2
+    privileged: true
+    environment:
+      NGAP_LOCAL_ADDR: 192.168.70.164
+      NGAP_REMOTE_ADDR: 192.168.70.138
+      GTPU_LOCAL_ADDR: 192.168.70.164
+      MCC: 208
+      MNC: 95
+      TAC: 00a000
+      GNBID: "000003"
+      SST_GNB: "01"
+      SST_UE: 1
+      SD: "000001"
+      MSIN: "0000000001"
+      OPC: C42449363BBAD02B66D16BC975D77CC1
+      KEY: fec86ba6eb707ed08905757b1bb44b8f
+      AMF: 8000
+      SQN: 0000000
+      DNN: test
+      NUM_UE: 1
+    cap_add:
+      - NET_ADMIN
+    networks:
+      public_net:
+          ipv4_address: 192.168.70.164
+    healthcheck:
+      test: /bin/bash -c "ip addr | grep uetun1"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+networks:
+    public_net:
+        external:
+            name: demo-oai-public-net
+

@@ -1,0 +1,8 @@
+UE 0 CU UE ID 1 DU UE ID 32987 RNTI 80db random identity 6c9a9f3615000000:
+    RRC status connected
+    PDU session 0 ID 10 status established
+    UE cap: BW DL 0. BW UL 0, DL MIMO Layers 1 UL MIMO Layers (CB) 1 UL MIMO Layers (nonCB) 1
+UE 1 CU UE ID 2 DU UE ID 55825 RNTI da11 random identity 0e0ea5b9e1000000:
+    RRC status connected
+    PDU session 0 ID 10 status established
+    UE cap: BW DL 0. BW UL 0, DL MIMO Layers 1 UL MIMO Layers (CB) 1 UL MIMO Layers (nonCB) 1

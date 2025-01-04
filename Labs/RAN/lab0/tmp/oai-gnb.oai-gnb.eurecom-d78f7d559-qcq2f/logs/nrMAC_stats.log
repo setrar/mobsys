@@ -1,0 +1,17 @@
+UE RNTI 80db (1) PH 0 dB PCMAX 0 dBm, average RSRP -44 (14 meas)
+UE 80db: dlsch_rounds 28773/2/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+UE 80db: dlsch_total_bytes 3519275
+UE 80db: ulsch_rounds 667720/0/0/0, ulsch_DTX 0, ulsch_errors 0, BLER 0.00000 MCS 9
+UE 80db: ulsch_total_bytes_scheduled 57181631, ulsch_total_bytes_received 57181375
+UE 80db: LCID 1: TX            862 RX            302 bytes
+UE 80db: LCID 2: TX              0 RX              0 bytes
+UE 80db: LCID 4: TX         319446 RX         334236 bytes
+UE RNTI da11 (2) PH 0 dB PCMAX 0 dBm, average RSRP -44 (14 meas)
+UE da11: dlsch_rounds 28739/2/0/0, dlsch_errors 0, pucch0_DTX 0, BLER 0.00000 MCS 9
+UE da11: dlsch_total_bytes 3508455
+UE da11: ulsch_rounds 666852/2/0/0, ulsch_DTX 2, ulsch_errors 0, BLER 0.00000 MCS 9
+UE da11: ulsch_total_bytes_scheduled 57073984, ulsch_total_bytes_received 57073612
+UE da11: LCID 1: TX           1162 RX            298 bytes
+UE da11: LCID 2: TX              0 RX              0 bytes
+UE da11: LCID 4: TX         310434 RX         317621 bytes
+

@@ -1,0 +1,358 @@
+Active_gNBs         = [ "hydra-oai-gnb" ];
+Asn1_verbosity      = "none";
+
+{{- if ne $.Patch.Access.Radio.Device "aw2s-rrh"}}
+device :
+{
+    name = "{{oaiLibrary $.Patch.Access.Radio.Device}}";
+};
+{{- end}}
+
+{{- if typeFreeHas "t-tracer" $.Patch.Profiles}}
+# t-tracer configuration -----------------------------------------------------------------------------------------------
+TTracer :
+{
+    T_port      = 2021;
+    T_nowait    = 0;
+    T_stdout    = 2;
+}
+# ----------------------------------------------------------------------------------------------------------------------
+{{- end}}
+
+gNBs :
+(
+    {
+        # identification parameters ------------------------------------------------------------------------------------
+        gNB_ID              = {{$.Patch.Access.Identity.AccessNetworkID}};
+        cell_type           = "CELL_MACRO_GNB";
+        gNB_name            = "hydra-oai-gnb";
+
+        {{- if eq $.Patch.Access.Radio.Device "rf-sim"}}
+        min_rxtxtime        = 5;
+        {{- else}}
+        min_rxtxtime        = 2;
+        {{- end}}
+
+        # WARNINING: TRACKING AREA CODES 0x0000 AND 0xfffe ARE RESERVED
+        tracking_area_code  = {{$.Patch.Access.Identity.TrackingArea}};
+        tr_s_preference     = "local_mac";
+        nr_cellid           = 12345678L;
+        plmn_list :
+        (
+            {{- range $idx, $elm := $.Grouped}}
+            {{- if $idx}},{{- end}}
+            {
+                mcc         = {{substr 0 3 (toString .PLMN)}};
+                mnc         = {{substr 3 5 (toString .PLMN)}};
+                mnc_length  = 2;
+                snssaiList :
+                (
+                    {{- range $id2, $s := .NSDs}}
+                    {{- if $id2}},{{- end}}
+                    {
+                        sst = {{.ServiceType}};
+                        sd  = {{.Differentiator}};
+                    }
+                    {{- end}}
+                );
+            }
+            {{- end}}
+        );
+        # --------------------------------------------------------------------------------------------------------------
+
+        # physical parameters ------------------------------------------------------------------------------------------
+        ssb_SubcarrierOffset                        = 0;
+        pdsch_AntennaPorts                          = {{antennaDL $.Patch.Access.Radio}};
+        pusch_AntennaPorts                          = {{antennaUL $.Patch.Access.Radio}};
+
+        pdcch_ConfigSIB1 :
+        (
+            {
+                controlResourceSetZero              = 12;
+                searchSpaceZero                     = 0;
+            }
+        );
+
+        servingCellConfigCommon :
+        (
+            {{- range $idx, $cell := $.Patch.Access.Cells}}
+            {
+                physCellId                                      = {{$idx}};
+
+                {{- if typeFreeHas "ue-measurement" $.Patch.Profiles}}
+                do_CSIRS                                        = 1;
+                {{- end}}
+
+                # frequency information --------------------------------------------------------------------------------
+                absoluteFrequencySSB                            = {{ssbFrequency $cell}};
+                dl_frequencyBand                                = {{getNumeric $cell.Band}};
+                ul_frequencyBand                                = {{getNumeric $cell.Band}};
+                dl_absoluteFrequencyPointA                      = {{pointAFrequency $cell}};
+                dl_offstToCarrier                               = 0;
+                ul_offstToCarrier                               = 0;
+                subcarrierSpacing                               = {{scsInt $cell.SubcarrierSpacing}};
+                referenceSubcarrierSpacing                      = {{scsInt $cell.SubcarrierSpacing}};
+                dl_subcarrierSpacing                            = {{scsInt $cell.SubcarrierSpacing}};
+                ul_subcarrierSpacing                            = {{scsInt $cell.SubcarrierSpacing}};
+                dl_carrierBandwidth                             = {{calculateNRB $cell}};
+                ul_carrierBandwidth                             = {{calculateNRB $cell}};
+                # ------------------------------------------------------------------------------------------------------
+                # initial bandwidth part configuration -----------------------------------------------------------------
+                initialDLBWPlocationAndBandwidth                = {{initialBWP $cell}};
+                initialULBWPlocationAndBandwidth                = {{initialBWP $cell}};
+                initialDLBWPsubcarrierSpacing                   = 1;
+                initialULBWPsubcarrierSpacing                   = 1;
+                initialDLBWPcontrolResourceSetZero              = 11;
+                initialDLBWPsearchSpaceZero                     = 0;
+                # ------------------------------------------------------------------------------------------------------
+
+                pMax                                            = 20;
+                prach_ConfigurationIndex                        = 98;
+                # PRACH message 1 FDM: one = 0, two = 1, four = 2, eight = 3
+                # PRACH root sequence index PR: 839 = 1, 139 = 2
+                prach_RootSequenceIndex_PR                      = 2;
+                prach_RootSequenceIndex                         = 1;
+                prach_msg1_FDM                                  = 0;
+                prach_msg1_FrequencyStart                       = 0;
+                msg1_SubcarrierSpacing                          = 1,
+
+                zeroCorrelationZoneConfig                       = 12;
+                preambleReceivedTargetPower                     = -104;
+                preambleTransMax                                = 6;
+                # power ramping step: 0dB = 0, 2dB = 1, 4dB = 2, 6dB = 3
+                powerRampingStep                                = 1;
+                ra_ResponseWindow                               = 4;
+                # oneeighth = 1, onefourth = 2, half = 3, one = 4, two = 5, four = 6, eight = 7, sixteen = 8
+                ssb_perRACH_OccasionAndCB_PreamblesPerSSB_PR    = 3;
+                ssb_perRACH_OccasionAndCB_PreamblesPerSSB       = 15;
+
+                ra_ContentionResolutionTimer                    = 7;
+                rsrp_ThresholdSSB                               = 19;
+                # restricted set config: unrestricted = 0, restricted type A = 1, restricted type B = 2
+                restrictedSetConfig                             = 0,
+                msg3_DeltaPreamble                              = 1;
+
+                # PUCCH group hopping: neither = 0, group hopping = 1, sequence hopping = 2
+                pucchGroupHopping                               = 0;
+                hoppingId                                       = 40;
+                p0_nominal                                      = -90;
+                p0_NominalWithGrant                             = -90;
+
+                # SSB positions in burst PR: short = 1, medium = 2, long = 3
+                ssb_PositionsInBurst_PR                         = 2;
+                ssb_PositionsInBurst_Bitmap                     = 1;
+                # 5ms = 0, 10ms = 1, 20ms = 2, 40ms = 3, 80ms = 4, 160ms = 5, spare2 = 6, spare1 = 7
+                ssb_periodicityServingCell                      = 2;
+                # DMRS type A position: pos2 = 0, pos3 = 1
+                dmrs_TypeA_Position                             = 0;
+
+                {{- if $cell.TDDConfig}}
+                # ms0p5 = 0, ms0p625 = 1, ms1 = 2, ms1p25 = 3, ms2 = 4, ms2p5 = 5, ms5 = 6, ms10 = 7
+                {{- if eq $cell.TDDConfig.Period "5ms"}}
+                    dl_UL_TransmissionPeriodicity                   = 6;
+                {{- else if eq $cell.TDDConfig.Period "2.5ms"}}
+                    dl_UL_TransmissionPeriodicity                   = 5;
+                {{- end}}
+                nrofDownlinkSlots                               = {{$cell.TDDConfig.DLSlots}};
+                nrofDownlinkSymbols                             = {{$cell.TDDConfig.DLSymbols}};
+                nrofUplinkSlots                                 = {{$cell.TDDConfig.ULSlots}};
+                nrofUplinkSymbols                               = {{$cell.TDDConfig.ULSymbols}};
+                ssPBCH_BlockPower                               = -10;
+                {{- end}}
+            }
+            {{- end}}
+        );
+        # --------------------------------------------------------------------------------------------------------------
+
+        # SCTP definitions ---------------------------------------------------------------------------------------------
+        SCTP :
+        {
+            SCTP_INSTREAMS  = 2;
+            SCTP_OUTSTREAMS = 2;
+        };
+        # --------------------------------------------------------------------------------------------------------------
+
+
+        {{- if or (eq $.Patch.Access.Stack "4g-nsa") (eq $.Patch.Access.Stack "5g-sa") (eq $.Patch.Access.Stack "4g-5g")}}
+        # AMF parameters -----------------------------------------------------------------------------------------------
+        amf_ip_address :
+        (
+            # upf: {{dependFirst $.Patch.Links "upf"}}
+            {{- range $idx, $amf := (typeFreeIndex $.Patch.Links "amf")}}
+            {{- if $idx}},{{- end}}
+            {
+                ipv4        = "{{dependManager $amf}}";
+                ipv6        = "::1";
+                active      = "yes";
+                preference  = "ipv4";
+            }
+            {{- end}}
+        );
+        # --------------------------------------------------------------------------------------------------------------
+        {{- end}}
+
+        NETWORK_INTERFACES :
+        {
+            GNB_INTERFACE_NAME_FOR_NG_AMF           = "{{$.Patch.Access.Interfaces.CoreControlInterface}}";
+            GNB_IPV4_ADDRESS_FOR_NG_AMF             = "{{resolveInterfaceIPv4Masked $.Patch.Access.Interfaces.CoreControlInterface}}";
+
+            GNB_INTERFACE_NAME_FOR_NGU              = "{{$.Patch.Access.Interfaces.CoreUserInterface}}";
+            GNB_IPV4_ADDRESS_FOR_NGU                = "{{resolveInterfaceIPv4Masked $.Patch.Access.Interfaces.CoreUserInterface}}";
+            GNB_PORT_FOR_S1U                        = 2152;
+        };
+    }
+);
+
+e2_agent :
+{
+    near_ric_ip_addr    = "{{resolveFirst $.Patch.Links "ric"}}";
+    e2_port             = 36421;
+    sm_dir              = "/opt/hydra/usr/lib/flexric/";
+};
+
+MACRLCs :
+(
+    {
+        num_cc                      = 1;
+        tr_s_preference             = "local_L1";
+        tr_n_preference             = "local_RRC";
+        pusch_TargetSNRx10          = 200;
+        pucch_TargetSNRx10          = 200;
+        ulsch_max_frame_inactivity  = 0;
+        # ul_max_mcs                  = 14;
+    }
+);
+
+L1s :
+(
+    {
+        num_cc                  = 1;
+        tr_n_preference         = "local_mac";
+        pusch_proc_threads      = 8;
+        pusch_dtx_threshold     = 10;
+        prach_dtx_threshold     = 120;
+        pucch0_dtx_threshold    = 50;
+    }
+);
+
+RUs :
+(
+   {
+        nb_tx                           = {{antennaDL $.Patch.Access.Radio}};
+        nb_rx                           = {{antennaUL $.Patch.Access.Radio}};
+        att_rx                          = 0;
+        bands                           = [78];
+        max_pdschReferenceSignalPower   = -27;
+        gNB_instances                   = [0];
+        bf_weights                      = [0x00007fff, 0x0000, 0x0000, 0x0000];
+        clock_src                       = "internal";
+        sf_extension                    = 0;
+
+        {{- if eq $.Patch.Access.Radio.Device "uhd-b200"}}
+        local_rf                        = "yes";
+        att_tx                          = 0;
+        {{- if $.Patch.Access.Radio.Antenna.RxGain}}
+        max_rxgain                      = {{$.Patch.Access.Radio.Antenna.RxGain}},
+        {{- else}}
+        max_rxgain                      = 114;
+        {{- end}}
+        sdr_addrs                       = "type=b200";
+        {{- end}}
+
+        {{- if eq $.Patch.Access.Radio.Device "uhd-n300"}}
+        local_rf                        = "yes";
+        att_tx                          = 0;
+        {{- if $.Patch.Access.Radio.Antenna.RxGain}}
+        max_rxgain                      = {{$.Patch.Access.Radio.Antenna.RxGain}},
+        {{- else}}
+        max_rxgain                      = 75;
+        {{- end}}
+        sdr_addrs                       = "type=n3xx,addr=192.168.10.2,second_addr=192.168.20.2,mgmt_addr=192.168.10.2";
+        time_src                        = "internal";
+        {{- end}}
+
+        {{- if eq $.Patch.Access.Radio.Device "amr-sdr50"}}
+        local_rf                        = "yes";
+        att_tx                          = 81;
+        {{- if $.Patch.Access.Radio.Antenna.RxGain}}
+        max_rxgain                      = {{$.Patch.Access.Radio.Antenna.RxGain}},
+        {{- else}}
+        max_rxgain                      = 90;
+        {{- end}}
+        sdr_addrs                       = "dev0=/dev/sdr0";
+        time_src                        = "internal";
+        {{- end}}
+
+        {{- if eq $.Patch.Access.Radio.Device "aw2s-rrh"}}
+        local_rf                        = "no";
+        tr_preference                   = "udp_ecpri_if5";
+        att_tx                          = 16;
+        nr_flag                         = 1;
+        sl_ahead                        = 5; # is the good value for 2.5ms TDD to avoid tx/rx overlapping
+
+        local_if_name                   = "aw2s";
+        local_address                   = "169.254.1.1";
+        local_portc                     = 50000;
+        local_portd                     = 52001;
+
+        remote_address                  = "169.254.1.2";
+        remote_portc                    = 55444;
+        remote_portd                    = 52183;
+
+        num_tp_cores                    = 4;
+        rxfh_core_id                    = 3;
+        txfh_core_id                    = 4;
+        {{- end}}
+   }
+);
+
+THREAD_STRUCT :
+(
+    {
+        parallel_config     = "PARALLEL_SINGLE_THREAD";
+        worker_config       = "WORKER_ENABLE";
+    }
+);
+
+rfsimulator :
+{
+    serveraddr  = "server";
+    serverport  = "4043";
+    # possible values: saveiq, chanmod
+    options     = ();
+    modelname   = "AWGN";
+    IQfile      = "/var/log/hydra/rfsimulator.iqs";
+};
+
+security = {
+    # valid values: nea0, nea1, nea2, nea3
+    ciphering_algorithms = ( "nea0" );
+
+    # valid values: nia0, nia1, nia2, nia3
+    integrity_algorithms = ( "nia2", "nia0" );
+
+    # setting 'drb_ciphering' to "no" disables ciphering for DRBs, no matter what 'ciphering_algorithms' configures
+    # similarly for 'drb_integrity'
+    drb_ciphering = "yes";
+    drb_integrity = "no";
+};
+
+log_config :
+{
+    global_log_level        = "info";
+    global_log_verbosity    = "medium";
+    hw_log_level            = "info";
+    hw_log_verbosity        = "medium";
+    phy_log_level           = "info";
+    phy_log_verbosity       = "medium";
+    mac_log_level           = "info";
+    mac_log_verbosity       = "medium";
+    rlc_log_level           = "info";
+    rlc_log_verbosity       = "medium";
+    pdcp_log_level          = "info";
+    pdcp_log_verbosity      = "medium";
+    rrc_log_level           = "info";
+    rrc_log_verbosity       = "medium";
+    ngap_log_level          = "info";
+    ngap_log_verbosity      = "medium";
+};

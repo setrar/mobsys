@@ -1,0 +1,142 @@
+[
+    {
+        "Name": "demo-oai-public-net",
+        "Id": "f2a078c292986e7876ecee376546a9699a5594d1b7213371d1e770a119da8494",
+        "Created": "2024-02-01T17:34:53.378349084+01:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "192.168.70.0/24"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "0a9031ffc6c0f37550d6db1654ef34b0bb0f402ef02990cdf296ce1de99b2174": {
+                "Name": "oai-spgwu-slice1",
+                "EndpointID": "0b1141417d37229c19b191bd88a684a4e7581c7b60eaf8bec0e8adc9b6e5f399",
+                "MacAddress": "02:42:c0:a8:46:8e",
+                "IPv4Address": "192.168.70.142/24",
+                "IPv6Address": ""
+            },
+            "115ffd2608f7516b78a9b2076706faca9c307db93a6ea89e0a79311b1433fbe4": {
+                "Name": "oai-ext-dn",
+                "EndpointID": "49b88ea2532e8323219dbef1dfe5e7fb720425a2a512601485bcf3602a5a70fa",
+                "MacAddress": "02:42:c0:a8:46:91",
+                "IPv4Address": "192.168.70.145/24",
+                "IPv6Address": ""
+            },
+            "277bdd303cd1a9968d52169928a30dd724e6b0825e9d1d3652e770e8b05073c0": {
+                "Name": "oai-nrf-slice3",
+                "EndpointID": "88c8505996dae5242bd5ab49be9f47d5c2a8c1cf1e325b8e1b519062ef873bd5",
+                "MacAddress": "02:42:c0:a8:46:89",
+                "IPv4Address": "192.168.70.137/24",
+                "IPv6Address": ""
+            },
+            "62f84dbcdbafca7dc4d421937027c5b3eb75ca2f487c9c31a910ccf0e2626533": {
+                "Name": "oai-smf-slice3",
+                "EndpointID": "2350d9a7aa358acab9ba02b670c8f5a770fd4543fa52ca90a9a68509014aed17",
+                "MacAddress": "02:42:c0:a8:46:8d",
+                "IPv4Address": "192.168.70.141/24",
+                "IPv6Address": ""
+            },
+            "87930796beb9cc7937db3350f0a7fb0b247ffd701e76b20c900feed6afc30785": {
+                "Name": "oai-nrf-slice12",
+                "EndpointID": "8415e1d79caccf9c0c2b27cda029d767ae914775369d25edd7c515afc951208b",
+                "MacAddress": "02:42:c0:a8:46:88",
+                "IPv4Address": "192.168.70.136/24",
+                "IPv6Address": ""
+            },
+            "87dd9d4cb9589e06a6ffcb649fe2229fa084edf92bce487ee843024ca2ced025": {
+                "Name": "oai-udm",
+                "EndpointID": "79ae36db05e4af273f8627d2adc54d0d8fb516e13b64acf8eb38d986c2624d98",
+                "MacAddress": "02:42:c0:a8:46:86",
+                "IPv4Address": "192.168.70.134/24",
+                "IPv6Address": ""
+            },
+            "9439ff45144a203b0c0d22d4ad05324d24092ee3e4d5b155c264a1456c4baeb7": {
+                "Name": "oai-udr",
+                "EndpointID": "c7a4573762dcc336db17c43fff58a20ee10e433bbee79912278a1dd174ca3aba",
+                "MacAddress": "02:42:c0:a8:46:85",
+                "IPv4Address": "192.168.70.133/24",
+                "IPv6Address": ""
+            },
+            "afe414b88e9f849f4168e164b85ed405a3bcb4f96452130d2eaab511fc28f16c": {
+                "Name": "oai-amf",
+                "EndpointID": "e088b997b1d986975b52849721dce41efb7bf7c130ff768402265ab7956b7cb4",
+                "MacAddress": "02:42:c0:a8:46:8a",
+                "IPv4Address": "192.168.70.138/24",
+                "IPv6Address": ""
+            },
+            "c5e58385996fdc252f16ed69ef30923a25aee77b5a49dd498074e76b61921590": {
+                "Name": "oai-smf-slice2",
+                "EndpointID": "2e9e24f9eaee1b43b89ff71beed8c2460e471811357f9c7673d4b8fcbccdd36f",
+                "MacAddress": "02:42:c0:a8:46:8c",
+                "IPv4Address": "192.168.70.140/24",
+                "IPv6Address": ""
+            },
+            "d5c3cf1b675e5adcb02d8ee5387aecf58d263e62d5df8a847714fca055aa0c8e": {
+                "Name": "oai-spgwu-slice3",
+                "EndpointID": "73cdd41d405b3e37c02dbc1372993dd03c504d68c8687747ab1deb6858cb9766",
+                "MacAddress": "02:42:c0:a8:46:90",
+                "IPv4Address": "192.168.70.144/24",
+                "IPv6Address": ""
+            },
+            "dabba0dfde4cb8b0b42eb9c1616c7e71799e7fc1da68fbbe26a61b709fc9fb25": {
+                "Name": "oai-spgwu-slice2",
+                "EndpointID": "57ed11984a4ae9dd86b382c3fc29116e1df88bf356b4e929de05b7c440e68288",
+                "MacAddress": "02:42:c0:a8:46:8f",
+                "IPv4Address": "192.168.70.143/24",
+                "IPv6Address": ""
+            },
+            "dc7bdddf7bcdbfa47de507214d61fc717fc976fabdedf765560261656d02bc79": {
+                "Name": "oai-ausf",
+                "EndpointID": "07969746933c36979b96be878ef911f93684496f22f86d93c78314949ef13c3f",
+                "MacAddress": "02:42:c0:a8:46:87",
+                "IPv4Address": "192.168.70.135/24",
+                "IPv6Address": ""
+            },
+            "df88da28d93f461fd33ac9e0980126c4080b889a74909b5b8c9c32e991cb5169": {
+                "Name": "mysql",
+                "EndpointID": "ce61607ec2d6c09abe3e8ced85cf4d7e6b86ef1bac17feeeafa35d9e75ca513b",
+                "MacAddress": "02:42:c0:a8:46:83",
+                "IPv4Address": "192.168.70.131/24",
+                "IPv6Address": ""
+            },
+            "e4d956021d04c2df1f205afa28312f076e1b3d7facad449a0d944ce10e160e01": {
+                "Name": "oai-smf-slice1",
+                "EndpointID": "0c1a3fe0c6147e53173709f69609702001bf65ea959d2e585d24122db6e97738",
+                "MacAddress": "02:42:c0:a8:46:8b",
+                "IPv4Address": "192.168.70.139/24",
+                "IPv6Address": ""
+            },
+            "f2dbe11413580ac5106a74ffcb3e0100c6d7576ed615bb4b746e70def0e98a95": {
+                "Name": "oai-nssf",
+                "EndpointID": "c2eb49b34b20362f587659954b2622f1568fdbca9b7ed258eea00b0a2504ec9a",
+                "MacAddress": "02:42:c0:a8:46:84",
+                "IPv4Address": "192.168.70.132/24",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "demo-oai"
+        },
+        "Labels": {
+            "com.docker.compose.network": "public_net",
+            "com.docker.compose.project": "docker-compose",
+            "com.docker.compose.version": "2.12.2"
+        }
+    }
+]
+

@@ -1,0 +1,16 @@
+PING 8.8.8.8 (8.8.8.8) from 12.1.1.3 oaitun_ue0: 64(92) bytes of data.
+72 bytes from 8.8.8.8: icmp_seq=1 ttl=120 time=25.8 ms
+72 bytes from 8.8.8.8: icmp_seq=2 ttl=120 time=14.4 ms
+72 bytes from 8.8.8.8: icmp_seq=3 ttl=120 time=15.6 ms
+72 bytes from 8.8.8.8: icmp_seq=4 ttl=120 time=20.0 ms
+72 bytes from 8.8.8.8: icmp_seq=5 ttl=120 time=16.7 ms
+72 bytes from 8.8.8.8: icmp_seq=6 ttl=120 time=21.1 ms
+72 bytes from 8.8.8.8: icmp_seq=7 ttl=120 time=15.0 ms
+
+72 bytes from 8.8.8.8: icmp_seq=8 ttl=120 time=15.1 ms
+72 bytes from 8.8.8.8: icmp_seq=9 ttl=120 time=19.3 ms
+72 bytes from 8.8.8.8: icmp_seq=10 ttl=120 time=21.7 ms
+
+--- 8.8.8.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 14.407/18.484/25.849/3.554 ms

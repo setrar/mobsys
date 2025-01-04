@@ -1,0 +1,20 @@
+------------------------------------------------------------
+Client connecting to 12.1.1.1, UDP port 5001 with pid 108 (1 flows)
+TOS set to 0x0 (Nagle on)
+Sending 1470 byte datagrams, IPG target: 280.38 us (kalman adjust)
+UDP buffer size:  128 MByte (default)
+------------------------------------------------------------
+[  1] local 12.1.1.4%oaitun_ue0 port 58877 connected with 12.1.1.1 port 5001 (reverse) (sock=3) on 2023-11-16 15:32:05.532 (UTC)
+[ ID] Interval        Transfer     Bandwidth        Jitter   Lost/Total  Latency avg/min/max/stdev PPS NetPwr
+[ *1] 0.00-1.00 sec  1.91 MBytes  16.0 Mbits/sec   0.507 ms 0/1362 (0%) 366.847/6.971/626.461/179.618 ms 1363 pps 5.457704
+[ *1] 1.00-2.00 sec  2.86 MBytes  24.0 Mbits/sec   0.675 ms 0/2039 (0%) 861.730/627.238/1054.831/124.967 ms 2036 pps 3.478269
+[ *1] 2.00-3.00 sec  4.21 MBytes  35.3 Mbits/sec   0.498 ms 0/3002 (0%) 1168.589/1053.780/1216.560/45.927 ms 3006 pps 3.776297
+[ *1] 3.00-4.00 sec  5.23 MBytes  43.9 Mbits/sec   0.361 ms 0/3731 (0%) 1191.880/1165.672/1214.054/12.342 ms 3731 pps 4.601611
+[ *1] 4.00-5.00 sec  5.44 MBytes  45.6 Mbits/sec   0.398 ms 0/3878 (0%) 1117.896/1075.602/1169.020/25.373 ms 3883 pps 5.099456
+[ *1] 5.00-6.00 sec  5.41 MBytes  45.4 Mbits/sec   0.358 ms 0/3859 (0%) 1034.838/993.741/1080.205/22.310 ms 3864 pps 5.481758
+[ *1] 6.00-7.00 sec  5.38 MBytes  45.1 Mbits/sec   0.363 ms 0/3838 (0%) 961.094/921.060/998.343/22.586 ms 3825 pps 5.870249
+[ *1] 7.00-8.00 sec  5.37 MBytes  45.1 Mbits/sec   0.356 ms 0/3832 (0%) 885.267/845.505/925.196/19.256 ms 3836 pps 6.363095
+[ *1] 8.00-9.00 sec  5.35 MBytes  44.9 Mbits/sec   0.509 ms 0/3817 (0%) 815.588/773.850/850.599/19.037 ms 3812 pps 6.879686
+[ *1] 9.00-10.00 sec  5.49 MBytes  46.0 Mbits/sec   0.361 ms 0/3913 (0%) 723.263/677.602/777.967/27.220 ms 3920 pps 7.952997
+[ *1] 10.00-10.60 sec  3.36 MBytes  46.7 Mbits/sec   0.401 ms 0/2397 (0%) 641.284/609.865/681.990/19.484 ms 3958 pps 9.106703
+[ *1] 0.00-10.60 sec  50.0 MBytes  39.6 Mbits/sec   0.467 ms 0/35668 (0%) 928.052/6.971/1216.560/209.900 ms 3364 pps 5.328197
